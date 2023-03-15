@@ -88,7 +88,7 @@ export default function ProfilePage() {
       {modal ? (
         <div className="bg-black w-screen h-screen z-10 flex justify-center">
           <button
-            className="z-10 absolute left-[900px] top-11"
+            className="z-10 absolute left-[85vw] top-11"
             onClick={handleClickClose}
           >
             <XIcon />

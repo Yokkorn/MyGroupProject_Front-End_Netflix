@@ -8,8 +8,8 @@ import * as movieApi from '../../apis/movie-api';
 import useFetchVideo from '../../utils/fetch-video';
 
 export default function MovieShowcase() {
-  const movieId = 13;
-  const url = useFetchVideo(movieId, 'video-player');
+  // const movieId = 13;
+  // const url = useFetchVideo(movieId, 'video-player');
 
   return (
     <>
@@ -22,7 +22,10 @@ export default function MovieShowcase() {
           controls
           muted
         >
-          <source src={url} type="video/mp4" />
+          <source
+            src="https://cdn.akamai.steamstatic.com/steam/apps/256912617/movie480_vp9.webm?t=1666665303"
+            type="video/mp4"
+          />
         </video>
       </div>
 
