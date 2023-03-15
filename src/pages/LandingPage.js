@@ -130,7 +130,7 @@ export default function LandingPage() {
             Get Started
           </button>
         </form>
-        <p className="text-base font-medium text-yellow-400 ml-[3vw] mt-1">
+        <p className="text-base font-medium text-yellow-400 ml-[80px] mt-1">
           {error}
         </p>
       </div>
@@ -241,7 +241,7 @@ export default function LandingPage() {
               Get Started
             </button>
           </form>
-          <p className=" w-7/12 ml-[3vw] text-base font-medium text-yellow-400  mt-2">
+          <p className=" w-8/12 ml-[80px] text-base font-medium text-yellow-400  mt-2">
             {error}
           </p>
         </div>
